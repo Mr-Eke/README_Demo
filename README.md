@@ -2,97 +2,42 @@
 ![monitor_heart_rate-4](https://github.com/user-attachments/assets/e00238e6-07d4-4fe1-b2d9-be0301855760)
 
 ## Project Overview  
-This project aims to develop a system for **recording heart rate data**, **archiving logs**, and **backing them up to a remote server**. The project includes three main tasks, each implemented as a shell script:
-1. **Heart Rate Monitoring Script**  ╰⪼   `heart_rate_monitor.sh`
-2. **Log Archival Script**  ╰⪼   `archive_log.sh`
-3. **Archival and Backup Script**  ╰⪼   `backup_archives.sh`
+This project aims to develop a system for **recording heart rate data**, **archiving logs**, and **backing them up to a remote server**. The project includes three main tasks, each implemented as a shell script:  
 
+  
+»  **Heart Rate Monitoring Script**  ╰⪼   `heart_rate_monitor.sh`  
+»  **Log Archival Script**  ╰⪼   `archive_log.sh`  
+»  **Archival and Backup Script**  ╰⪼   `backup_archives.sh`  
+  
 These scripts are part of the hospital’s system upgrade to improve patient monitoring and data management.  
 
 ---
-## Setup Instructions
-
-### Prerequisites:
+## Prerequisites and Setup Instructions
 - A Unix/Linux environment with Bash installed (Pre-installed by Default).
 - You should have git installed  
-### Instructions:
-1. Clone the repository and switch to the project directory  
+- Clone the repository and switch to the project directory ⤵️
 ```
-git clone https://github.com/Mr-Eke/hospital_monitoring_group10.git
+eke@ubuntu~$ git clone https://github.com/Mr-Eke/hospital_monitoring_group10.git
+eke@ubuntu~$ cd hospital_monitoring_group10
 ```
-```
-cd hospital_monitoring_group10
-```
-2. Execute scripts to perform the three main tasks (Scripts are already executable)
-- To record the heart rate from a device into the logfile, execute the `heart_rate_monitor.sh` script
-  ```
-  ./heart_rate_monitor.sh
-  ```
-- Enter a device name when you get this prompt ╰⪼  _"Enter the name of the monitoring device (e.g. "Monitor_A")"_
-
-
-3. **Run the Script**:
-   ```bash
-   ./heart_rate_monitor.sh
-   ```
-
-4. **Enter Device Name**:
-   When prompted, enter the name of the monitoring device (e.g., "Monitor_A").
-
-5. **Background Process**:
-   The script will run in the background, and the Process ID (PID) will be displayed. To check the log output, use:
-   ```bash
-   tail -f heart_rate_log.txt
-   ```
-
----
-
-### Task 2: Log Archival Script
-#### Script Name: `archive_log.sh`
-
+### Task 1: Heart Rate Monitoring  
+- To record the heart rate from a device into the logfile, execute the heart rate monitor script » `./heart_rate_monitor.sh`  
+- Enter a device name when you get this prompt ╰⪼  _"Enter the name of the monitoring device (e.g., "Monitor_A")"_  
+- **Background Process:**  
+  - The script will start executing in a separate process in the background, and the Process ID (PID) will be displayed, which you can use to manage the execution of this script.
+To check the log output, use: `tail -f heart_rate_log.txt`  
+### Task 2: Log Archival  
 This script archives the heart rate log file by renaming it with a timestamp.
+- To archive the log file, run archive_log script » `./archive_log.sh`   
+   - The original `heart_rate_log.txt` will be renamed to `heart_rate_log.txt_YYYYMMDD_HHMMSS` with the timestamp of when the script was executed.  
+### Task 3: Archival and Remote Backup
+This script moves the archived log files to a designated directory and backs them up to a remote server using SSH.  
+- **Set Up SSH Access:**  
+  - In this script `backup_archives.sh`, replace the SSH credentials (host and username) with your own remote server credentials.
+- Run the script » `./backup_archives.sh` and provide the password to your remote server when prompted.   
 
-1. **Download the Script**:  
-   Place the `archive_log.sh` script in your working directory.
-
-2. **Make the Script Executable**:
-   ```bash
-   chmod +x archive_log.sh
-   ```
-
-3. **Run the Script**:
-   ```bash
-   ./archive_log.sh
-   ```
-
-4. **Check Archive**:  
-   The original `heart_rate_log.txt` will be renamed to `heart_rate_log.txt_YYYYMMDD_HHMMSS` with the timestamp of when the script was executed.
-
----
-
-### Task 3: Archival and Backup Script
-#### Script Name: `backup_archives.sh`
-
-This script moves the archived log files to a designated directory and backs them up to a remote server using SSH.
-
-1. **Download the Script**:  
-   Place the `backup_archives.sh` script in your working directory.
-
-2. **Make the Script Executable**:
-   ```bash
-   chmod +x backup_archives.sh
-   ```
-
-3. **Set Up SSH Access**:
-   Ensure you have SSH access to the remote server with the appropriate credentials. Use the sandbox host details provided by your group.
-
-4. **Run the Script**:
-   ```bash
-   ./backup_archives.sh
-   ```
-
-5. **Check Backup**:  
-   Archived files will be moved to the `archived_logs_group$` directory (replace `$` with your group number) and then securely copied to the remote server using `scp`.
+- **Check and Confirm Backup**:  
+  - Archived files will be moved to the `archived_logs_group10` and then securely copied to the home directory `/home/` of your remote server using `scp`. You can check the home directory of your remote server to confirm that the directory `archived_logs_group10` and its contents are there. 
 
 ---
 
@@ -100,32 +45,22 @@ This script moves the archived log files to a designated directory and backs the
 
 The team met several times during the development of this project. Below is a summary of attendance during group sessions:
 
-### Session 1: Initial Planning (Date: 2024-10-01)
-- **Present**: Alice, Bob, Charlie, David
-- **Absent**: None
+| **Session**                                    | **Date**      | **Present**                                               | **Absent** |
+|------------------------------------------------|---------------|-----------------------------------------------------------|------------|
+| Intro Session ⮞ Understanding the tasks        | 08-10-2024    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
+| Session 2 ⮞ Task 1 Implementation              | 10-10-2024    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
+| Session 3 ⮞ Task 2 Implementation              | 13-10-2024    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
+| Session 4 ⮞ Task 3 Implementation              | 12-10-2024    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
+| Test Session 4 ⮞ Checks and Test running       | 12-10-2024    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
+| Session 5 ⮞ Documentation (README.md)          | 16-10-2024    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |  
 
-### Session 2: Task 1 Implementation (Date: 2024-10-03)
-- **Present**: Alice, Charlie, David
-- **Absent**: Bob (excused)
-
-### Session 3: Task 2 Implementation (Date: 2024-10-05)
-- **Present**: Bob, Charlie, David
-- **Absent**: Alice (excused)
-
-### Session 4: Task 3 Implementation & Final Testing (Date: 2024-10-07)
-- **Present**: Alice, Bob, Charlie, David
-- **Absent**: None
-
+## Contact Information  
+For any questions or more clarity, please contact:
+- Olive » [Email](o.umurerwa@alustudent.com) | [Github](https://github.com/Umurerwa3)
+- Azalie » [Email](a.oga@alustudent.com) | [Github](https://github.com/Az-oga)
+- Shalom » [Email](s.amaliza@alustudent.com) | [Github](https://github.com/amaliza-shal)
+- Chiagoziem » [Email](c.eke@alustudent.com) | [Github](https://github.com/Mr-Eke)
+- HonourGod » [Email](h.levison@alustudent.com) | [Github](https://github.com/H-levison)
+- Burabyo Gift » [Email](j.burabyo@alustudent.com) | [Github](https://github.com/Burabyo)
 ---
-
-## Contact Information
-
-For any questions or issues with setup, please contact:
-- Alice (Project Manager): alice@example.com
-- Bob (Lead Developer): bob@example.com
-- Charlie (Systems Engineer): charlie@example.com
-- David (Backup Specialist): david@example.com
-
----
-
-Thank you for using the **Heart Rate Monitoring System**!
+_Thank you, and I hope you enjoyed using our **Heart Rate Monitoring System**!_ 😅
