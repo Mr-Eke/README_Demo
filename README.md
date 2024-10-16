@@ -45,14 +45,14 @@ This script moves the archived log files to a designated directory and backs the
 
 The team met several times during the development of this project. Below is a summary of attendance during group sessions:
 
-| **Session**                                    | **Date**      | **Present**                                               | **Absent** |
+| **Session**                                    | **Date (2024)**      | **Present**                                               | **Absent** |
 |------------------------------------------------|---------------|-----------------------------------------------------------|------------|
-| Intro Session ⮞ Understanding the tasks        | 08-10-2024    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
-| Session 2 ⮞ Task 1 Implementation              | 10-10-2024    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
-| Session 3 ⮞ Task 2 Implementation              | 13-10-2024    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
-| Session 4 ⮞ Task 3 Implementation              | 12-10-2024    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
-| Test Session 4 ⮞ Checks and Test running       | 12-10-2024    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
-| Session 5 ⮞ Documentation (README.md)          | 16-10-2024    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |  
+| Intro Session ⮞ Understanding the tasks        | 08-Oct    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
+| Session 2 ⮞ Task 1 Implementation              | 10-Oct    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
+| Session 3 ⮞ Task 2 Implementation              | 13-Oct    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
+| Session 4 ⮞ Task 3 Implementation              | 12-Oct    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
+| Test Session 4 ⮞ Test running                  | 12-Oct    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
+| Session 5 ⮞ Documentation                      | 16-Oct    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |  
 
 ## Contact Information  
 For any questions or more clarity, please contact:
