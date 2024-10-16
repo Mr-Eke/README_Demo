@@ -47,7 +47,7 @@ The team met several times during the development of this project. Below is a su
 
 | **Session**                                    | **Date (2024)**      | **Present**                                               | **Absent** |
 |------------------------------------------------|---------------|-----------------------------------------------------------|------------|
-| Intro ⮞ Understanding the tasks                | 08-Oct    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
+| 1 ⮞ Understanding the tasks                | 08-Oct    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
 | 2 ⮞ Task 1 Implementation              | 10-Oct    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
 | 3 ⮞ Task 2 Implementation              | 13-Oct    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
 | 4 ⮞ Task 3 Implementation              | 12-Oct    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
