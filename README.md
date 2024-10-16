@@ -46,8 +46,8 @@ This script moves the archived log files to a designated directory and backs the
 The team met several times during the development of this project. Below is a summary of attendance during group sessions:
 
 | **Session**                                    | **Date (2024)**      | **Present**                                               | **Absent** |
-|------------------------------------------------|---------------|-----------------------------------------------------------|------------|
-| Intro Session ⮞ Understanding the tasks        | 08-Oct    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
+|------------------------------------------------|---------------|:-----------------------------------------------------------:|------------|
+| Intro ⮞ Understanding the tasks                | 08-Oct    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
 | Session 2 ⮞ Task 1 Implementation              | 10-Oct    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
 | Session 3 ⮞ Task 2 Implementation              | 13-Oct    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
 | Session 4 ⮞ Task 3 Implementation              | 12-Oct    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
