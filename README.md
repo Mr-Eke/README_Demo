@@ -14,22 +14,22 @@ These scripts are part of the hospital’s system upgrade to improve patient mon
 
 ### Prerequisites:
 - A Unix/Linux environment with Bash installed (Pre-installed by Default).
-- You should have git installed
-
+- You should have git installed  
 ### Instructions:
+1. Clone the repository and switch to the project directory  
+```
+git clone https://github.com/Mr-Eke/hospital_monitoring_group10.git
+```
+```
+cd hospital_monitoring_group10
+```
+2. Execute scripts to perform the three main tasks (Scripts are already executable)
+- To record the heart rate from a device into the logfile, execute the `heart_rate_monitor.sh` script
+  ```
+  ./heart_rate_monitor.sh
+  ```
+- Enter a device name when you get this prompt ╰⪼  _"Enter the name of the monitoring device (e.g. "Monitor_A")"_
 
-### Task 1: Heart Rate Monitoring Script
-#### Script Name: `heart_rate_monitor.sh`
-
-This script records heart rate data every second from a specified monitoring device.
-
-1. **Download the Script**:  
-   Place the `heart_rate_monitor.sh` script in your desired working directory.
-
-2. **Make the Script Executable**:
-   ```bash
-   chmod +x heart_rate_monitor.sh
-   ```
 
 3. **Run the Script**:
    ```bash
