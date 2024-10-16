@@ -1,21 +1,20 @@
 # Heart Rate Monitoring System
+![monitor_heart_rate-4](https://github.com/user-attachments/assets/e00238e6-07d4-4fe1-b2d9-be0301855760)
 
 ## Project Overview  
 This project aims to develop a system for **recording heart rate data**, **archiving logs**, and **backing them up to a remote server**. The project includes three main tasks, each implemented as a shell script:
-1. **Heart Rate Monitoring Script**
-2. **Log Archival Script**
-3. **Archival and Backup Script**
+1. **Heart Rate Monitoring Script**  ╰⪼   `heart_rate_monitor.sh`
+2. **Log Archival Script**  ╰⪼   `archive_log.sh`
+3. **Archival and Backup Script**  ╰⪼   `backup_archives.sh`
 
-These scripts are part of a hospital’s system upgrade to improve patient monitoring and data management.
+These scripts are part of the hospital’s system upgrade to improve patient monitoring and data management.  
 
 ---
-
 ## Setup Instructions
 
 ### Prerequisites:
-- A Unix/Linux environment with Bash installed
-- SSH access to a remote server (one of the group members' sandbox)
-- Proper permissions to run scripts and create directories
+- A Unix/Linux environment with Bash installed (Pre-installed by Default).
+- You should have git installed
 
 ### Instructions:
 
