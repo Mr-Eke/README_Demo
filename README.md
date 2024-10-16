@@ -56,11 +56,11 @@ The team met several times during the development of this project. Below is a su
 
 ## Contact Information  
 For any questions or more clarity, please contact:
-- Olive » [Email](o.umurerwa@alustudent.com) | [Github](https://github.com/Umurerwa3)
-- Azalie » [Email](a.oga@alustudent.com) | [Github](https://github.com/Az-oga)
-- Shalom » [Email](s.amaliza@alustudent.com) | [Github](https://github.com/amaliza-shal)
-- Chiagoziem » [Email](c.eke@alustudent.com) | [Github](https://github.com/Mr-Eke)
-- HonourGod » [Email](h.levison@alustudent.com) | [Github](https://github.com/H-levison)
-- Burabyo Gift » [Email](j.burabyo@alustudent.com) | [Github](https://github.com/Burabyo)
+- Olive Umurerwa» [Email](o.umurerwa@alustudent.com) | [Github](https://github.com/Umurerwa3)
+- Azalie Oyim Oga » [Email](a.oga@alustudent.com) | [Github](https://github.com/Az-oga)
+- Shalom Amaliza » [Email](s.amaliza@alustudent.com) | [Github](https://github.com/amaliza-shal)
+- Chiagoziem Eke » [Email](c.eke@alustudent.com) | [Github](https://github.com/Mr-Eke)
+- Jolly Burabyo Gift » [Email](j.burabyo@alustudent.com) | [Github](https://github.com/Burabyo)
+- HonourGod Levison » [Email](h.levison@alustudent.com) | [Github](https://github.com/H-levison)  
 ---
 _Thank you, and I hope you enjoyed using our **Heart Rate Monitoring System**!_ 😅
