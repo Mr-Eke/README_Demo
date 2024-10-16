@@ -52,7 +52,7 @@ The team met several times during the development of this project. Below is a su
 | 3 ⮞ Task 2 Implementation              | 13-Oct    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
 | 4 ⮞ Task 3 Implementation              | 12-Oct    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
 | 4 ⮞ Checks & Test running                  | 12-Oct    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
-| 5 ⮞ Documentation (README.md)                      | 16-Oct    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |  
+| 5 ⮞ Documentation                      | 16-Oct    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |  
 
 ## Contact Information  
 For any questions or more clarity, please contact:
